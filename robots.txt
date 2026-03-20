@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ton-username.github.io/elo-traiteur/sitemap.xml
+Sitemap: https://sharko01.github.io/Elo_Traiteur/sitemap.xml
