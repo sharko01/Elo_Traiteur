@@ -13,6 +13,7 @@ const load = async (id, url) => {
         document.querySelector(id).innerHTML = data;
         
     }catch(error){
+        window.location.assign("./erreur.html")
         console.log('error : ',error)
     }
     
@@ -34,8 +35,8 @@ const load = async (id, url) => {
 
 
 
-document.addEventListener("DOMContentLoaded", () => {load('#header', '../composants/header.html')});
-document.addEventListener("DOMContentLoaded", () => {load('#footer', '../composants/footer.html')});
+document.addEventListener("DOMContentLoaded", () => {load('#header', './composants/header.html')});
+document.addEventListener("DOMContentLoaded", () => {load('#footer', './composants/footer.html')});
 
 // ScrollTrigger.create({
 //   trigger: "#hero",
