@@ -34,5 +34,5 @@ const load = async (id, url) => {
 
 
 
-document.addEventListener("DOMContentLoaded", load('#header', 'https://sharko01.github.io/elo-traiteur/composants/header.html'));
-document.addEventListener("DOMContentLoaded", load('#footer', 'https://sharko01.github.io/elo-traiteur/composants/footer.html'));
+document.addEventListener("DOMContentLoaded", () => {load('#header', '../composants/header.html')});
+document.addEventListener("DOMContentLoaded", () => {load('#footer', '../composants/footer.html')});
